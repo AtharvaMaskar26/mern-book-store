@@ -43,5 +43,5 @@ mongoose
     });
   })
   .catch((error) => {
-    console.log(error);
+    console.log(`Could Not connect to database due to : ${error}`);
   });
