@@ -7,7 +7,7 @@ dotenv.config()
 
 const app = express();
 
-const MONGO_DB_URL = process.env.MONGO_DB_URL;
+const MONGO_DB_URL = process.env.MONGO_URL;
 const PORT = process.env.PORT;
 
 // Middleware for parsing request body
