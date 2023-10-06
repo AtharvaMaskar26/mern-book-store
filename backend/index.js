@@ -32,6 +32,7 @@ app.get('/', (request, response) => {
 
 app.use('/books', booksRoute);
 console.log(`MongoDB URL: ${MONGO_DB_URL}`);
+console.log(`Type of MONGO DB URL ${typeof(MONGO_DB_URL)}`);
 
 mongoose
   .connect(MONGO_DB_URL)
